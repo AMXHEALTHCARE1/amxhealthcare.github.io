@@ -1,0 +1,17 @@
+# Site settings
+title: AMX Healthcare Group
+email: amxhealthcare0@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Innovative medical services, patient counseling, and virtual consulting 
+  providing reliable health solutions and support.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://AMXHEALTHCARE.github.io" # the base hostname & protocol
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Custom Data
+company_name: AMX Healthcare Group
+contact_email: amxhealthcare0@gmail.com
