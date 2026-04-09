@@ -1,0 +1,100 @@
+---
+layout: default
+title: Home
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMX HEALTHCARE GROUP | Innovative Healthcare Solutions</title>
+    <style>
+        /* CSS RESET & GENERAL STYLES */
+        body { font-family: 'Open Sans', 'Segoe UI', sans-serif; line-height: 1.7; margin: 0; color: #444; background: #fff; }
+        .container { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; }
+        
+        /* HEADER & HERO */
+        header { text-align: center; padding: 4rem 1rem; background: #f9f9f9; border-bottom: 2px solid #e1e1e1; }
+        .logo-placeholder { max-width: 250px; margin-bottom: 1.5rem; }
+        header h1 { color: #00478F; font-size: 2.5rem; margin-top: 0; }
+        
+        /* SECTIONS GENERAL */
+        h2 { text-align: center; color: #4D8F3A; margin-bottom: 2rem; }
+        
+        /* SERVICES GRID */
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .service-item { border: 1px solid #e1e1e1; background: #fff; padding: 1.5rem; border-radius: 8px; transition: 0.3s; }
+        .service-item:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-color: #00478F; }
+        .service-item h3 { color: #00478F; margin-top: 0; font-weight: 600; }
+        
+        /* CALL TO ACTION */
+        .cta-section { background: #00478F; color: white; text-align: center; padding: 3rem; margin-top: 3rem; }
+        .cta-section h2 { color: white; margin-top: 0; }
+        .btn { background: #E21F26; color: white; padding: 1rem 2.5rem; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.1rem; display: inline-block; transition: 0.3s; margin-top: 1rem; }
+        .btn:hover { background: #bf171e; }
+        
+        /* FOOTER */
+        footer { background: #4D8F3A; color: white; text-align: center; padding: 1rem; font-size: 0.9rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="{{ '/assets/logo.png' | relative_url }}" alt="AMX HEALTHCARE GROUP Logo" class="logo-placeholder">
+    <p>Innovative medical services, patient counseling, and virtual consulting.</p>
+</header>
+
+<div class="container">
+    <h2>Core Medical and Wellness Services</h2>
+    <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem auto;">At AMX Healthcare Group, we integrate compassionate care with advanced technology to manage patient health comprehensively.</p>
+
+    <div class="services-grid">
+        <div class="service-item">
+            <h3>Home Nursing Care</h3>
+            <p>Compassionate skilled nursing services delivered in the comfort of your own home.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>Medical Billing & Insurance Processing</h3>
+            <p>Streamlining complex medical finance paperwork to provide administrative relief.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Nutrition & Lifestyle Counseling</h3>
+            <p>Personalized wellness plans focusing on preventative health and dietary guidance.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>Virtual Doctor Consultants</h3>
+            <p>Secure, convenient, and professional medical advice via video consultations.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Remote Patient Monitoring</h3>
+            <p>Utilizing modern devices to track patient health data and provide insights.</p>
+        </div>
+
+        <div class="service-item">
+            <h3>Drug Distribution</h3>
+            <p>Efficient and reliable distribution of essential medications.</p>
+        </div>
+        
+        <div class="service-item">
+            <h3>Patient Counseling on Drug Use</h3>
+            <p>Expert pharmaceutical guidance on proper medication adherence and interactions.</p>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section">
+    <h2>Ready to optimize your healthcare?</h2>
+    <p>Connect with AMX Healthcare Group to learn how we can assist you.</p>
+    <a href="mailto:amxhealthcare0@gmail.com" class="btn">Get in Touch</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 AMX Healthcare Group. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
